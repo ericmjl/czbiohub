@@ -1,5 +1,7 @@
 # Custom
 *.pdf
+cover-letter.docx
+cover-letter.pdf
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -90,7 +92,3 @@ ENV/
 
 # Rope project settings
 .ropeproject
-
-cover-letter.docx
-
-cover-letter.pdf
