@@ -104,7 +104,7 @@ Following this, I will use data generated from Aim 1 as training data for the de
 
 The full version-controlled history of this research statement can be found online [^czb].
 
-[^czb]: https://github.com/ericmjl/cz-biohub
+[^czb]: https://github.com/ericmjl/czbiohub
 
 <!-- Figures -->
 
