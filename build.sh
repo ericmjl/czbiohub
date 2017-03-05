@@ -6,9 +6,6 @@ cp ../references-master/papers-library.bib .
 cp ../styles/pnas.csl .
 cp ../pandoc-templates/default.latex .
 
-# Make figures
-python convert_images.py
-
 # Build PDF version
 pandoc 01-research-statement.md \
   -o 01-research-statement.pdf \
