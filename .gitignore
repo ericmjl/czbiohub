@@ -21,6 +21,8 @@ downloads/
 eggs/
 .eggs/
 lib/
+!revealjs/lib/
+!revealjs/plugin/menu/lib/
 lib64/
 parts/
 sdist/
