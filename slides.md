@@ -7,7 +7,7 @@ author:
 
 # Phenotypic Interpretation of Genomes
 
-![](./figures/interpretation.jpg)
+![](./figures/genomic-interpretation-to-policy.jpg)
 
 # Crucial Gaps
 
