@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Genomic Interpretation 2.0</title>
+
+		<link rel="stylesheet" href="revealjs/css/reveal.css">
+        <!-- Allows user to select theme, or else default to beige. -->
+                <link rel="stylesheet" href="revealjs/css/theme/serif.css">
+        
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="revealjs/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealjs/css/print/pdf.css' : 'revealjs/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                <section id="title" class="slide level1">
+                    <h1>Genomic Interpretation 2.0</h1>
+                                                                    <h2>Eric J. Ma</h2>
+                        <h3></h3>
+                                                <h2></h2>
+                        <h3>MIT Biological Engineering</h3>
+                                                            </section>
+                <section id="phenotypic-interpretation-of-genomes" class="slide level1">
+                <h1>Phenotypic Interpretation of Genomes</h1>
+                <figure>
+                <img src="./figures/interpretation.jpg" />
+                </figure>
+                </section>
+                <section id="crucial-gaps" class="slide level1">
+                <h1>Crucial Gaps</h1>
+                <ul>
+                <li class="fragment">Phenotype data matched with genomes</li>
+                <li class="fragment">Accurate interpretation system</li>
+                </ul>
+                </section>
+                <section id="aims" class="slide level1">
+                <h1>Aims</h1>
+                <ol type="1">
+                <li class="fragment">High Throughput Viral Phenotyping System</li>
+                <li class="fragment">Interpretable Deep Learning Systems</li>
+                <li class="fragment">Generative Mapping of Fitness Landscapes</li>
+                </ol>
+                </section>
+                <section id="aim-1-ht-viral-phenotyping" class="slide level1">
+                <h1>Aim 1: HT Viral Phenotyping</h1>
+                <section id="big-goal" class="level2">
+                <h2>Big Goal</h2>
+                <p>Biochemically <strong>phenotype</strong> every <strong>viral protein</strong> variant sampled</p>
+                </section>
+                <section id="scoped-goal" class="level2">
+                <h2>Scoped Goal</h2>
+                <p>Determine <strong>drug resistance</strong> of every <strong>influenza neuraminidase</strong> variant sampled</p>
+                </section>
+                <section id="rational-protein-library-generation" class="level2">
+                <h2>Rational Protein Library Generation</h2>
+                <figure>
+                <img src="./figures/experimental-workflow-part1.jpg" alt="Generate all known neuraminidase variants using microarray DNA synthesis. Barcoding enables selective amplification later." /><figcaption>Generate all known neuraminidase variants using microarray DNA synthesis. Barcoding enables selective amplification later.</figcaption>
+                </figure>
+                </section>
+                <section id="high-throughput-cloning" class="level2">
+                <h2>High Throughput Cloning</h2>
+                <figure>
+                <img src="./figures/experimental-workflow-part2.jpg" alt="Dial-out PCR using barcodes as primers enables arraying of neuraminidase variants in 96-well format." /><figcaption>Dial-out PCR using barcodes as primers enables arraying of neuraminidase variants in 96-well format.</figcaption>
+                </figure>
+                </section>
+                <section id="high-throughput-phenotyping" class="level2">
+                <h2>High Throughput Phenotyping</h2>
+                <figure>
+                <img src="./figures/experimental-workflow-part3.jpg" alt="IC50 measurements using viral-like particles, with uncertainty modelled using Bayesian estimation." /><figcaption>IC<sub>50</sub> measurements using viral-like particles, with uncertainty modelled using Bayesian estimation.</figcaption>
+                </figure>
+                </section>
+                </section>
+                <section id="aim-2-interpretable-geno-pheno" class="slide level1">
+                <h1>Aim 2: Interpretable Geno-Pheno</h1>
+                <section id="big-goal-1" class="level2">
+                <h2>Big Goal</h2>
+                <p>Deploy <strong>machine learning</strong> algorithms to automatically learn <strong>phenotype from genotype</strong>.</p>
+                </section>
+                <section id="scoped-goal-1" class="level2">
+                <h2>Scoped Goal</h2>
+                <p>Demonstrate utility of <strong>graph convolutions</strong> for interpretably learning <strong>drug resistance from systematic measurements</strong>.</p>
+                </section>
+                <section id="protein-structure-graphs" class="level2">
+                <h2>Protein Structure Graphs</h2>
+                <ul>
+                <li>Protein structure represented as graphs
+                <ul>
+                <li>Nodes: Amino acids</li>
+                <li>Edges: Biochemical interactions</li>
+                </ul></li>
+                </ul>
+                </section>
+                <section id="graph-convolutions-enable-data-introspection" class="level2">
+                <h2>Graph Convolutions Enable Data Introspection</h2>
+                <figure>
+                <img src="./figures/most-activating.jpg" alt="Deep learning on graphs automatically learned amino acid interactions responsible for phenotype." /><figcaption>Deep learning on graphs automatically learned amino acid interactions responsible for phenotype.</figcaption>
+                </figure>
+                </section>
+                </section>
+                <section id="aim-3-generative-embeddings" class="slide level1">
+                <h1>Aim 3: Generative Embeddings</h1>
+                <section id="big-goal-2" class="level2">
+                <h2>Big Goal</h2>
+                <p>Map fitness landscape of <strong>every viral protein</strong> w.r.t. <strong>quantitative phenotype</strong>.</p>
+                </section>
+                <section id="scoped-goal-2" class="level2">
+                <h2>Scoped Goal</h2>
+                <p>Map fitness landscape of every <strong>neuraminidase</strong> w.r.t <strong>drug resistance phenotype</strong>.</p>
+                </section>
+                <section id="fitness-mappings-from-variational-autoencoders" class="level2">
+                <h2>Fitness Mappings from Variational Autoencoders</h2>
+                <figure>
+                <img src="./figures/embedding-h3n2.jpg" alt="2D temporal embedding of H3N2 protein sequence evolution reveals peaks and valleys in sequence evolution." /><figcaption>2D temporal embedding of H3N2 protein sequence evolution reveals peaks and valleys in sequence evolution.</figcaption>
+                </figure>
+                </section>
+                <section id="potential-uses" class="level2">
+                <h2>Potential Uses</h2>
+                <ul>
+                <li class="fragment">Mapping drug resistance vs. sequence landscapes</li>
+                <li class="fragment">Intelligently navigate evolvable protein search space</li>
+                <li class="fragment">Pre-emptive testing for drug resistance</li>
+                </ul>
+                </section>
+                </section>
+                <section id="vision" class="slide level1">
+                <h1>Vision</h1>
+                <figure>
+                <img src="./figures/summary-figure.jpg" alt="Quantitative and pre-emptive risk determination on multiple axes." /><figcaption>Quantitative and pre-emptive risk determination on multiple axes.</figcaption>
+                </figure>
+                </section>
+                <section id="acknowledgments" class="slide level1">
+                <h1>Acknowledgments</h1>
+                <figure>
+                <img src="./figures/runlab-logo.png" id="fig" class="class" width="400" />
+                </figure>
+                <ul>
+                <li>Prof. Jonathan A. Runstadler, PhD, DVM (MIT)</li>
+                <li>Prof. Mark Bathe, PhD (MIT)</li>
+                <li>Prof. Jukka-Pekka Onnela, PhD (HSPH)</li>
+                <li>Dr. Islam T. Hussein (MIT)</li>
+                <li>Dr. Nichola J. Hill (MIT)</li>
+                </ul>
+                </section>
+			</div>
+		</div>
+
+		<script src="revealjs/lib/js/head.min.js"></script>
+		<script src="revealjs/js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+                transition: 'convex',
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'revealjs/plugin/markdown/marked.js' },
+					{ src: 'revealjs/plugin/markdown/markdown.js' },
+					{ src: 'revealjs/plugin/notes/notes.js', async: true },
+					{ src: 'revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
