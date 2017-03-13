@@ -13,9 +13,9 @@ author:
 
 # Phenotypic Interpretation
 
-## 
+##
 
-![This goal is hampered by our inability to pre-emptively phenotype and characterize viruses ahead-of-time.](./figures/genomic-interpretation-to-policy.jpg){#fig .class height="300px"}
+![This goal is hampered by our inability to pre-emptively phenotype and characterize viruses ahead-of-time.](./figures/genomic-interpretation-to-policy.jpg){#fig .class height="350px"}
 
 ## The Need
 
