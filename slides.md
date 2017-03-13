@@ -9,14 +9,14 @@ author:
 
 ![](./figures/genomic-interpretation-to-policy.jpg)
 
-# Crucial Gaps
+# The Problems
 
 > - Phenotype data matched with genomes
 > - Accurate interpretation system
 
-# Aims
+# Proposed Solutions
 
-> 1. High Throughput Viral Phenotyping System
+> 1. High Throughput Robotic Viral Phenotyping
 > 1. Interpretable Deep Learning Systems
 > 1. Generative Mapping of Fitness Landscapes
 
