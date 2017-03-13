@@ -65,6 +65,10 @@ Deploy **machine learning** algorithms to interpretably learn **phenotype from g
 
 Demonstrate utility of **graph convolutions** for interpretably learning **drug resistance from systematic measurements**.
 
+## Graph Convolutions
+
+![](./figures/convolution.jpg)
+
 ## Protein Structure Graphs
 
 - Protein structure represented as graphs
