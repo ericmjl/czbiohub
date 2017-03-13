@@ -21,9 +21,9 @@ author:
 
 > 1. Drug resistance data matched with protein sequences.
 > 1. Prediction system capable of delivering interpretable insights.
-> 1. A feedback loop for model improvement and pre-emptive testing.
+> 1. A model-guided feedback loop for improving predictions and guiding pre-emptive testing.
 
-##Proposed Solutions
+## Proposed Solutions
 
 > 1. High Throughput Robotic Viral Phenotyping
 > 1. Interpretable Deep Learning Systems
