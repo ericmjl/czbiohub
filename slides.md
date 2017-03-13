@@ -91,8 +91,9 @@ Map fitness landscape of every **neuraminidase** w.r.t **drug resistance phenoty
 
 ![](./figures/runlab-logo.png){#fig .class width="400px"}
 
-- Prof. Jonathan A. Runstadler, PhD, DVM (MIT)
-- Prof. Mark Bathe, PhD (MIT)
-- Prof. Jukka-Pekka Onnela, PhD (HSPH)
-- Dr. Islam T. Hussein (MIT)
-- Dr. Nichola J. Hill (MIT)
+- Jonathan A. Runstadler, PhD, DVM (MIT)
+- Mark Bathe, PhD (MIT)
+- Jukka-Pekka Onnela, PhD (HSPH)
+- David K. Duvenaud (Harvard, U Toronto)
+- Islam T. Hussein, PhD, DVM (MIT)
+- Nichola J. Hill, PhD (MIT)
