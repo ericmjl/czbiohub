@@ -1,20 +1,29 @@
 ---
-title: Genomic Interpretation 2.0
+title: Phenotypic Interpretation 2.0
 author:
 - name: Eric J. Ma
 - affiliation: MIT Biological Engineering
 ---
 
-# Phenotypic Interpretation of Genomes
+# Bio
 
-![](./figures/genomic-interpretation-to-policy.jpg)
+> - Final year PhD candidate at MIT Biological Engineering
+> - Computational disease ecology and applied machine learning
+> - On a mission to make disease surveillance a **quantitative** and **predictive** endeavour.
 
-# The Problems
+# Phenotypic Interpretation
 
-> - Phenotype data matched with genomes
-> - Accurate interpretation system
+## The Goal
 
-# Proposed Solutions
+![](./figures/genomic-interpretation-to-policy.jpg){#fig .class height="400px"}
+
+## The Need
+
+> 1. Drug resistance data matched with protein sequences.
+> 1. Prediction system capable of delivering interpretable insights.
+> 1. Model-guided, pre-emptive experimental loop.
+
+##Proposed Solutions
 
 > 1. High Throughput Robotic Viral Phenotyping
 > 1. Interpretable Deep Learning Systems
@@ -30,9 +39,13 @@ Biochemically **phenotype** every **viral protein** variant sampled
 
 Determine **drug resistance** of every **influenza neuraminidase** variant sampled
 
+## Required Components
+
+![](./figures/key-components.jpg)
+
 ## Rational Protein Library Generation
 
-![Generate all known neuraminidase variants using microarray DNA synthesis. Barcoding enables selective amplification later.](./figures/experimental-workflow-part1.jpg)
+![Generate all known neuraminidase variants using microarray DNA synthesis. Barcoding enables arrayed amplification.](./figures/experimental-workflow-part1.jpg)
 
 ## High Throughput Cloning
 
@@ -46,7 +59,7 @@ Determine **drug resistance** of every **influenza neuraminidase** variant sampl
 
 ## Big Goal
 
-Deploy **machine learning** algorithms to automatically learn **phenotype from genotype**.
+Deploy **machine learning** algorithms to interpretably learn **phenotype from genotype**.
 
 ## Scoped Goal
 
