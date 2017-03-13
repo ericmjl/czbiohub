@@ -21,7 +21,7 @@ author:
 
 > 1. Drug resistance data matched with protein sequences.
 > 1. Prediction system capable of delivering interpretable insights.
-> 1. Model-guided, pre-emptive experimental loop.
+> 1. A feedback loop for model improvement and pre-emptive testing.
 
 ##Proposed Solutions
 
