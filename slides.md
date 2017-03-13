@@ -84,7 +84,7 @@ Map fitness landscape of every **neuraminidase** w.r.t **drug resistance phenoty
 
 # Vision
 
-![Quantitative and pre-emptive risk determination on multiple axes.](./figures/summary-figure.jpg)
+![Quantitative and pre-emptive risk determination on a matrix.](./figures/summary-figure.jpg)
 
 
 # Acknowledgments
