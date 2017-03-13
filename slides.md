@@ -26,8 +26,8 @@ author:
 ## Proposed Solutions
 
 > 1. High Throughput Robotic Viral Phenotyping
-> 1. Interpretable Deep Learning Systems
-> 1. Generative Mapping of Fitness Landscapes
+> 1. Interpretable Machine Learning Systems
+> 1. Generative Mapping of Sequence-Fitness Landscapes
 
 # Aim 1: HT Viral Phenotyping
 
