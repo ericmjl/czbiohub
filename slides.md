@@ -26,7 +26,7 @@ author:
 
 ## Proposed Solutions
 
-> 1. High Throughput Robotic Viral Phenotyping
+> 1. High Throughput Viral Phenotyping
 > 1. Interpretable Machine Learning Systems
 > 1. Generative Mapping of Sequence-Fitness Landscapes
 
