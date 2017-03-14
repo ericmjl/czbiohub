@@ -20,7 +20,7 @@ author:
 
 ## The Need
 
-> 1. Drug resistance data matched with protein sequences.
+> 1. Systematic drug resistance data matched with protein sequences.
 > 1. Prediction system capable of delivering interpretable insights.
 > 1. A model-guided feedback loop for improving predictions and guiding pre-emptive testing.
 
