@@ -94,7 +94,7 @@ Map sequence landscape of every **neuraminidase** w.r.t **drug resistance phenot
 
 ![2D temporal embedding of H3N2 HA sequence evolution reveals peaks and valleys in sequence evolution.](./figures/embedding-h3n2.jpg)
 
-## Potential Uses
+# Potential Interfaces
 
 > - Mapping drug resistance vs. sequence landscapes
 > - Intelligently navigate evolvable protein search space
