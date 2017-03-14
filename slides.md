@@ -8,6 +8,7 @@ author:
 # Bio
 
 > - Final year PhD candidate at MIT Biological Engineering
+> - Advisor: Jonathan A. Runstadler
 > - Computational disease ecology and applied machine learning
 > - On a mission to make disease surveillance a **quantitative** and **predictive** endeavour.
 
