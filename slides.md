@@ -16,7 +16,7 @@ author:
 
 ##
 
-![This goal is hampered by our lack of public-domain data and inability to pre-emptively phenotype viruses ahead-of-time.](./figures/genomic-interpretation-to-policy.jpg){#fig .class height="350px"}
+![This goal is hampered by lack of systematic measurements and inability to pre-emptively phenotype viruses ahead-of-time.](./figures/genomic-interpretation-to-policy.jpg){#fig .class height="350px"}
 
 ## The Need
 
@@ -64,7 +64,7 @@ Deploy **machine learning** algorithms to interpretably learn **phenotype from g
 
 ## Scoped Goal
 
-Demonstrate utility of **graph convolutions** for interpretably learning **drug resistance from systematic measurements**.
+Investigate **graph convolutions** as an interpretable method for learning **drug resistance from systematic measurements**.
 
 ## Graph Convolutions
 
@@ -84,15 +84,15 @@ Demonstrate utility of **graph convolutions** for interpretably learning **drug 
 
 ## Big Goal
 
-Map fitness landscape of **every viral protein** w.r.t. **quantitative phenotype**.
+Map sequence landscape of **every viral protein** w.r.t. **quantitative phenotype**.
 
 ## Scoped Goal
 
-Map fitness landscape of every **neuraminidase** w.r.t **drug resistance phenotype**.
+Map sequence landscape of every **neuraminidase** w.r.t **drug resistance phenotype**.
 
 ## Fitness Mappings from Variational Autoencoders
 
-![2D temporal embedding of H3N2 protein sequence evolution reveals peaks and valleys in sequence evolution.](./figures/embedding-h3n2.jpg)
+![2D temporal embedding of H3N2 HA sequence evolution reveals peaks and valleys in sequence evolution.](./figures/embedding-h3n2.jpg)
 
 ## Potential Uses
 
